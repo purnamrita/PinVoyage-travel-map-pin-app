@@ -20,11 +20,12 @@ function App() {
   const [rating, setRating] = useState(0);
   const [showRegister, setShowRegister] = useState(false);
   const [showLogin, setShowLogin] = useState(false);
+  axios.defaults.withCredentials = true;
 
   useEffect(() => {
     const getPins = async () => {
       try {
-        const res = await axios.get("http://localhost:8800/api/pins");
+        const res = await axios.get("https://travel-map-pin-app.vercel.app/api/pins");
         setPins(res.data);
       } catch (err) {
         console.log(err);
@@ -59,7 +60,7 @@ function App() {
     };
 
     try {
-      const res = await axios.post("http://localhost:8800/api/pins", newPin);
+      const res = await axios.post("https://travel-map-pin-app.vercel.app/api/pins", newPin);
       setPins([...pins, res.data]);
       setNewPlace(null);
     } catch (err) {

@@ -16,7 +16,7 @@ export default function Login({ setShowLogin, setCurrentUser, myStorage }) {
       password: passwordRef.current.value,
     };
     try {
-      const res = await axios.post("http://localhost:8800/api/users/login", user);
+      const res = await axios.post("https://travel-map-pin-app.vercel.app/api/users/login", user);
       myStorage.setItem('user', res.data.username);
       setCurrentUser(res.data.username);
       console.log("success")
