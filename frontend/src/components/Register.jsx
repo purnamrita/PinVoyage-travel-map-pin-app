@@ -21,7 +21,7 @@ const Register = ({setShowRegister}) => {
         };
 
         try{
-            await axios.post("https://travel-map-pin-app.vercel.app/users/register", newUser);
+            await axios.post("http://localhost:8800/api/users/register", newUser);
             setError(false);
             setSuccess(true);
         }
