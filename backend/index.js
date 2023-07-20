@@ -5,7 +5,6 @@ const app = express();
 const pinRoute = require("./routes/pins");
 const userRoute = require("./routes/users");
 const cors = require("cors");
-const PORT = process.env.PORT || 3030;
 
 dotenv.config();
 app.use(cors());
@@ -20,6 +19,6 @@ mongoose.connect(process.env.MONGO_URL, {useNewUrlParser: true})
 app.use("/api/pins", pinRoute);
 app.use("/api/users", userRoute);
 
-app.listen(PORT, () => {
+app.listen(8800, () => {
     console.log("Backend server is running");
 })

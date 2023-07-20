@@ -9,19 +9,17 @@ import { format } from "timeago.js";
 import Register from "./components/Register";
 import Login from "./components/Login";
 
-
 function App() {
   const myStorage = window.localStorage;
   const [pins, setPins] = useState([]);
   const [currentPlaceId, setCurrentPlaceId] = useState(null);
   const [newPlace, setNewPlace] = useState(null);
-  const [currentUser, setCurrentUser] = useState(myStorage.getItem("user"));
+  const [currentUser, setCurrentUser] = useState(myStorage.user);
   const [title, setTitle] = useState(null);
   const [desc, setDesc] = useState(null);
   const [rating, setRating] = useState(0);
   const [showRegister, setShowRegister] = useState(false);
   const [showLogin, setShowLogin] = useState(false);
-  axios.defaults.withCredentials = true;
 
   useEffect(() => {
     const getPins = async () => {
