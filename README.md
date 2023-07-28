@@ -5,11 +5,11 @@ world map to share their reviews and read reviews written by other users. Regist
 Users need to login to share their reviews. 
 
 Tech Used:
-React,
-NodeJS, 
-ExpressJS,
-MongoDB, 
-MapBox API
+React,  
+NodeJS,  
+ExpressJS,  
+MongoDB,  
+MapBox API  
 
 Live Link:
 https://64b9c4982a781a11b33f33e3--spectacular-kelpie-4725d7.netlify.app/
