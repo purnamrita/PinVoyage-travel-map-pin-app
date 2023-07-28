@@ -16,10 +16,17 @@ https://64b9c4982a781a11b33f33e3--spectacular-kelpie-4725d7.netlify.app/
 (Please wait for a minute if the pins do not appear immediately. Since the backend is deployed on an online service, it takes some time to fetch the data.)
 
 
-![Screenshot (812)](https://github.com/purnamrita/PinVoyage-travel-map-pin-app/assets/90690424/4d23db88-3e07-48c8-8cb1-02173d1bf14e)
 
 
 
-![Screenshot (813)](https://github.com/purnamrita/PinVoyage-travel-map-pin-app/assets/90690424/9224b28f-375b-4041-960e-33eb22c08511)
+
+
+
+
+![Screenshot (814)](https://github.com/purnamrita/PinVoyage-travel-map-pin-app/assets/90690424/56e412f9-bc5e-4e30-b241-ccffa37795cd)
+
+
+
+![Screenshot (815)](https://github.com/purnamrita/PinVoyage-travel-map-pin-app/assets/90690424/ec0c1e69-6c5a-4cd6-b7c5-4c3a573b6220)
 
 
